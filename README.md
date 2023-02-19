@@ -1,13 +1,7 @@
-# Sample Hardhat Project
+# Buidspace Intro to Solidity
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+- This is a smart contract to let people Wave at us by the blockchain
+- The React frontend is [here](https://github.com/bruno-fialho/buildspace-web3-app-react)!
+- A little screenshot of the project running on our React App.
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
-```
+<img width="977" alt="Screen Shot 2023-02-19 at 16 40 10" src="https://user-images.githubusercontent.com/45835631/219971667-fdf94645-7090-4681-b400-c756f202084c.png">
