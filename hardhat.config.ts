@@ -1,3 +1,4 @@
+import "dotenv/config";
 import { HardhatUserConfig, task } from "hardhat/config";
 import "@nomicfoundation/hardhat-toolbox";
 
@@ -13,6 +14,12 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
 
 const config: HardhatUserConfig = {
   solidity: "0.8.17",
+  networks: {
+    goerli: {
+      url: `${process.env.STAGING_QUICKNODE_KEY}`,
+      accounts: [`${process.env.PRIVATE_KEY}`]
+    },
+  },
 };
 
 export default config;
